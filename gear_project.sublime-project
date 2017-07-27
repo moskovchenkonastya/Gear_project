@@ -1,0 +1,31 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name": "make All",
+            "selector": "source.c++",
+            "working_dir": "${project_path:${folder}}",
+    		"cmd": ["make", "all"],
+            "shell": true
+    	},
+        {
+            "name": "run gear",
+            "working_dir": "${project_path:${folder}}",
+            "shell_cmd": "make all && ./build/bin/main build/bin/pic/0001.bmp build/bin/result.bmp build/bin/log.txt && tail build/bin/log.txt ",
+           "shell": true
+        },
+        {
+            "name": "run gear with image",
+            "selector": "source.c++",
+            "working_dir": "${project_path:${folder}}",
+            "shell_cmd": "make all && ./build/bin/main build/bin/pic/0001.bmp build/bin/result.bmp build/bin/log.txt && tail build/bin/log.txt && open build/bin/result.bmp ",
+            "shell": true
+        }    ]
+
+}
