@@ -1,24 +1,3 @@
-/*************************************************
-*                                                *
-*  EasyBMP Cross-Platform Windows Bitmap Library *
-*                                                *
-*  Author: Paul Macklin                          *
-*   email: macklin01@users.sourceforge.net       *
-* support: http://easybmp.sourceforge.net        *
-*                                                *
-*          file: EasyBMP_DataStructures.h        *
-*    date added: 05-02-2005                      *
-* date modified: 12-01-2006                      *
-*       version: 1.06                            *
-*                                                *
-*   License: BSD (revised/modified)              *
-* Copyright: 2005-6 by the EasyBMP Project       *
-*                                                *
-* description: Defines basic data structures for *
-*              the BMP class                     *
-*                                                *
-*************************************************/
-
 #ifndef _EasyBMP_Custom_Math_Functions_
 #define _EasyBMP_Custom_Math_Functions_
 inline double Square( double number )
