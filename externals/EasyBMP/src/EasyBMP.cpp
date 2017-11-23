@@ -1,23 +1,3 @@
-/*************************************************
-*                                                *
-*  EasyBMP Cross-Platform Windows Bitmap Library * 
-*                                                *
-*  Author: Paul Macklin                          *
-*   email: macklin01@users.sourceforge.net       *
-* support: http://easybmp.sourceforge.net        *
-*                                                *
-*          file: EasyBMP.cpp                     * 
-*    date added: 03-31-2006                      *
-* date modified: 12-01-2006                      *
-*       version: 1.06                            *
-*                                                *
-*   License: BSD (revised/modified)              *
-* Copyright: 2005-6 by the EasyBMP Project       * 
-*                                                *
-* description: Actual source file                *
-*                                                *
-*************************************************/
-
 #include "EasyBMP.h"
 
 /* These functions are defined in EasyBMP.h */
